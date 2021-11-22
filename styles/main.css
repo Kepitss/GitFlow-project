@@ -2,36 +2,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Hero component */
 .hero-container {
-	background: linear-gradient(to right, rgb(0, 194, 255), rgb(0, 255, 10));
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+  background: linear-gradient(to right, rgb(0, 194, 255), rgb(0, 255, 10));
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .hero-container h1,
 .hero-container h3,
 .hero-date {
-	font-family: "Nova Flat", cursive;
-	color: rgb(28, 27, 27);
+  font-family: "Nova Flat", cursive;
+  color: rgb(28, 27, 27);
 }
 
 .hero-container h1 {
-	font-size: 10vw;
+  font-size: 10vw;
 }
 
 .hero-container h3 {
-	font-size: 3vw;
-	width: 50%;
-	text-align: center;
+  font-size: 3vw;
+  width: 50%;
+  text-align: center;
+}
+
+/* Hero date */
+.hero-date {
+  position: absolute;
+  bottom: 1vw;
+  font-size: 2vw;
+  color: whitesmoke;
 }
