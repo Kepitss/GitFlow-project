@@ -36,6 +36,7 @@
    - **docs:** = tikai dokumentācijas izmaiņas (piemēram: README.md).
    - **fix:** = kļūdas izlabošana.
    - **perf:** = koda izmaiņa kas uzlabo mājaslapas darbību.
+   - **feat:** = jaunas funkcijas izveide
    - **refactor:** = koda izmaiņa, kas neizlabo kļūdu un nepievieno funkciju*
    - **test:** = viss kas saistīts ar testiem
    - **revert:** = lieto ja ir vajadzība izlabot jau eksitējošu "commit" vēstuli. Tad galvenei ir jāsākas ar revert: un kopsavilkumu no labojamā "commit" vēstules galvenes. Kā arī galvenai daļai sākumā ir jasatur teikums "This reverts commit (SHA)" un ar paskaidrojumu kapēc šī "commit" vēstule tika labota.
